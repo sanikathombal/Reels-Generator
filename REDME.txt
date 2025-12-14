@@ -1,0 +1,9 @@
+pip install ElevenLabs
+run this command --->
+	pip install -U ElevenLabs
+	python main.py
+run this in new powershell -->
+	generate_process.py
+
+	only add jpg imges to the folder other wise it throw error
+

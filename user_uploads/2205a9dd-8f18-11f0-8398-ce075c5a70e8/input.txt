@@ -1,0 +1,10 @@
+file 'Screenshot (6).png'
+duration 1
+file 'img2.jpeg'
+duration 1
+file 'img4.jpeg'
+duration 1
+file 'img1.jpeg'
+duration 1
+file 'img5.jpeg'
+duration 1
