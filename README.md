@@ -3,7 +3,7 @@
 # 🎬 VidSnapAI  
 ### AI-Powered Video Reel Generator
 
-Turn images and text into engaging AI-narrated video reels using Flask, ElevenLabs, and FFmpeg.
+Turn images and text into engaging **AI-narrated video reels** using Flask, ElevenLabs, and FFmpeg.
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Flask](https://img.shields.io/badge/Flask-Web%20Framework-black)
@@ -19,7 +19,7 @@ Turn images and text into engaging AI-narrated video reels using Flask, ElevenLa
 
 **VidSnapAI** is a full-stack Python web application that automatically converts image collections and descriptive text into short, AI-narrated video reels.
 
-The project demonstrates:
+This project demonstrates:
 - AI integration (Text-to-Speech)
 - Backend automation
 - Media processing with FFmpeg
@@ -54,49 +54,43 @@ Ideal for **content creators**, **automation demos**, and **AI portfolio project
 
 ## 🏗️ Architecture
 
+```text
 User Upload
-↓
+    ↓
 Image Folder + desc.txt
-↓
+    ↓
 AI Text-to-Speech
-↓
+    ↓
 Audio + Images
-↓
+    ↓
 FFmpeg Video Rendering
-↓
+    ↓
 Final Reel (static/reels/)
 
-yaml
-Copy code
 
----
-
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone the Repository
-```bash
+⚙️ Installation & Setup
+1️⃣ Clone the Repository
 git clone https://github.com/your-username/VidSnapAI.git
 cd VidSnapAI
+
 2️⃣ Install Dependencies
-bash
-Copy code
 pip install flask
 pip install -U elevenlabs
+
 3️⃣ Configure API Key
+
 Edit config.py:
 
-python
-Copy code
 ELEVENLABS_API_KEY = "your_api_key_here"
+
 4️⃣ Run the Application
-bash
-Copy code
 python main.py
+
 5️⃣ Start Background Processor (New Terminal)
-bash
-Copy code
 python generate_process.py
+
 🧑‍💻 How It Works
+
 Upload image files via the web interface
 
 A unique folder is created in user_uploads/
@@ -107,15 +101,13 @@ Background service:
 
 Converts text → AI voice
 
-Combines images + audio via FFmpeg
+Combines images + audio using FFmpeg
 
 Saves output to static/reels/
 
 Completed folders are tracked using done.txt
 
 📂 Project Structure
-csharp
-Copy code
 VidSnapAI/
 │
 ├── main.py                 # Flask web app
@@ -128,8 +120,10 @@ VidSnapAI/
 ├── static/
 │   └── reels/              # Generated videos
 └── templates/              # Frontend HTML files
+
 ⚠️ Important Notes
-❗ JPG images recommended (best FFmpeg compatibility)
+
+❗ JPG images are recommended (best FFmpeg compatibility)
 
 🔐 ElevenLabs API is paid
 
@@ -138,6 +132,7 @@ VidSnapAI/
 🔄 Do not delete done.txt during runtime
 
 🚀 Future Enhancements
+
 🎵 Background music support
 
 ⏱️ Custom image timing controls
@@ -149,6 +144,7 @@ VidSnapAI/
 📊 Processing status dashboard
 
 🎯 Use Cases
+
 Social media reel automation
 
 AI demo projects
@@ -158,4 +154,3 @@ Content creation pipelines
 Media processing automation
 
 Portfolio showcase for AI & backend skills
-
