@@ -1,6 +1,6 @@
 ﻿# Reels-Generator
 
-🎬 VidSnapAI
+🎬 <h1>VidSnapAI<h1>
     VidSnapAI is a Flask-based web application that automatically creates short video reels from uploaded images and text, using AI-generated voiceovers and FFmpeg.
     It is designed to quickly turn image folders into engaging reels with narration.
 
@@ -59,6 +59,7 @@
     FFmpeg – Image + audio to video conversion
 
 HTML / CSS – Frontend templates
+
 
 
 
