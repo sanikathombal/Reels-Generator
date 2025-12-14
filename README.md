@@ -6,7 +6,6 @@
 
 🚀 Features -
     📸 Upload multiple images (JPG / PNG / JPEG)
-    
     📝 Convert text into AI-generated voice (using ElevenLabs)
     🎥 Automatically generate video reels using FFmpeg
     🖼️ Gallery view to see generated reels
@@ -60,5 +59,6 @@
     FFmpeg – Image + audio to video conversion
 
 HTML / CSS – Frontend templates
+
 
 
